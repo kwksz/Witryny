@@ -1,0 +1,75 @@
+/* Main Layaut */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainSetup {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.menu li{
+    height: 100vh;
+    list-style: none;
+}
+.menu ul {
+    overflow: hidden;   
+    padding: 0;
+}
+.menu a {
+    width: 12vw;
+    height: 16.666vh;
+    border: black 1px solid;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color:rgb(160,160,160);
+}
+.logo img{
+    width: 88vw;
+    height: 16.4vh;
+}
+/* Galery Layaut */
+.galeryPhotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.galeryPhotos img {
+    width: 26vw;
+    height: 27vh;
+}
+/* About Layaut */
+.aboutLayouta {
+    display: grid;
+    grid-template-columns:1fr 4fr ;
+}
+.aboutLayoutb {
+	text-align: right;
+    display: grid;
+    grid-template-columns:4fr 1fr ;
+}
+.about img {
+    width: 20vw;
+    height: 25vh;
+}
+
+/* Concact Layaut */
+.concact {
+    text-align: center;
+}
+
+/* Hobby Layaut */
+.hobbyPhoto img {
+    width: 20vw;
+    height: 20wh;
+}
+.hobbyPhoto {
+   text-align: right;
+    display: grid;
+    grid-template-columns:4fr 1fr ;
+}
